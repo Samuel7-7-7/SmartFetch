@@ -1,7 +1,12 @@
-export interface SmartFetchConfig extends RequestInit {
+export interface SmartFetchConfig extends Omit<RequestInit, 'body'> {
   baseURL?: string;
-  // Próximamente params y timeout...
+  timeout?: number;
+  params?: Record<string, string | number | boolean>;
+  retries?: number;
+  body?: any;
 }
+
+
 
 export interface SmartFetchResponse<T = any> {
   data: T;
