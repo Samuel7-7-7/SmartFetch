@@ -1,5 +1,5 @@
 {
-  "name": "@samuel7-7-7/smartfetch",
+  "name": "@kevinemt/smartfetch",
   "version": "1.0.0",
   "description": "Un wrapper avanzado, resiliente y altamente configurable sobre la API nativa fetch de JavaScript. Cero dependencias.",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
     "http",
     "client"
   ],
-  "author": "Samuel7-7-7",
+  "author": "kevinemt",
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
